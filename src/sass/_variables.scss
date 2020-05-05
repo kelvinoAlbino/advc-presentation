@@ -1,0 +1,33 @@
+//bootstrap overrides
+$g-g-advc-orange: #f7b053;
+$g-g-advc-green: #9ecd7d;
+
+$g-g-advc-red: #DB504A;
+$g-g-advc-jungle-green: #43AA8B;
+$g-g-advc-yellow: #FFE066;
+$g-g-advc-blue: #247BA0;
+
+$font-family-base: 'Raleway', sans-serif !important;
+
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  font-weight: 900 !important;
+
+  span {
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: $g-g-advc-green;
+    }
+  }
+}
+
+$primary: $g-g-advc-green;
+
+$secondary: $g-g-advc-orange;

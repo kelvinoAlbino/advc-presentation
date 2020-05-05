@@ -1,0 +1,47 @@
+.timeline {
+
+  .timeline-item {
+    width: 12.5%;
+    padding: $grid-gutter-width/3;
+    background-color: $g-g-advc-orange;
+    border-radius: 10px;
+    border: solid 5px #fff;
+    display: table;
+
+    h6 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 500 !important;
+    }
+
+    .timeline-graph {
+      position: relative;
+      text-align: right;
+      margin-bottom: 0;
+      text-align: left;
+      padding: 0 $grid-gutter-width/2 0 $grid-gutter-width/2;
+
+      i {
+        font-size: 3rem;
+        color: #fff;
+      }
+
+      h3 {
+        font-size: 16px;
+        margin: 0;
+      }
+    }
+
+    &:nth-child(odd) {
+      background-color: $g-g-advc-green;
+    }
+
+    .timeline-descr {
+      padding: $grid-gutter-width/3;
+
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+}

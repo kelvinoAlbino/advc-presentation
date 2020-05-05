@@ -1,0 +1,52 @@
+body {
+	line-height: 1.5;
+}
+section {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container {
+
+  &.container-correction {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+ul {
+	padding: 0 0 0 $grid-gutter-width/2;
+
+	li {
+		padding: $grid-gutter-width/3;
+
+		a {
+
+		}
+	}
+
+}
+
+.advc-bg-green {
+  background: $g-g-advc-green;
+}
+
+.advc-bg-orange {
+  background: $g-g-advc-orange;
+}
+
+.advc-text-green {
+  color: $g-g-advc-green;
+}
+
+.advc-text-orange {
+  color: $g-g-advc-orange;
+}
+
+
+
+
+
